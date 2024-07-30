@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<!DOCTYPE employee [
+<!ELEMENT empolyee (detail)>
+<!ELEMENT detail (id, name_ltname, position, salary, tell)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name_ltname (#PCDATA)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT salary (#PCDATA)>
+<!ELEMENT tell (#PCDATA)>
+]>
+
+<employee>
+    <detail>
+        <id> CK-O-070000 </id>
+        <name_ltname> Mr. David Garcia </name_ltname>
+        <position> Owner, Manager </position>
+        <salary> 53,000฿ </salary>
+        <tell> 063-416-5788 </tell>
+    </detail>
+
+    <detail>
+        <id> CK-B-072001 </id>
+        <name_ltname> Mr. Gabriel Santos </name_ltname>
+        <position> Barista </position>
+        <salary> 37,200฿ </salary>
+        <tell> 091-446-8627 </tell>
+    </detail>
+
+    <detail>
+        <id> CK-K-072001 </id>
+        <name_ltname> Mrs. Fernanda Rodrigues </name_ltname>
+        <position> Kitchen Staff </position>
+        <salary> 31,000฿ </salary>
+        <tell> 085-467-1186 </tell>
+    </detail>
+
+    <detail>
+        <id> CK-S-072108 </id>
+        <name_ltname> Ms. Ava Moore </name_ltname>
+        <position> Cashier, Cleaner </position>
+        <salary> 21,600฿ </salary>
+        <tell> 081-546-9431 </tell>
+    </detail>
+
+    <detail>
+        <id> CK-S-072211 </id>
+        <name_ltname> Mr. John Harris </name_ltname>
+        <position> Cashier, Cleaner </position>
+        <salary> 21,600฿ </salary>
+        <tell> 095-842-3766 </tell>
+    </detail>
+</employee>

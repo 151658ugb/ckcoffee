@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<!DOCTYPE buy-sell [
+<!ELEMENT buy-sell (detail)>
+<!ELEMENT detail (yy, inves, profit, net_amount, growth_per)>
+<!ELEMENT yy (#PCDATA)>
+<!ELEMENT inves (#PCDATA)>
+<!ELEMENT profit (#PCDATA)>
+<!ELEMENT net_amount (#PCDATA)>
+<!ELEMENT growth_per (#PCDATA)>
+]>
+
+<buy-sell>
+    <detail>
+        <yy> 2020 </yy>
+        <inves> 350,000 </inves>
+        <profit> 63,000 </profit>
+        <net_amount> 413,000 </net_amount>
+        <growth_per> 18% </growth_per>
+    </detail>
+
+    <detail>
+        <yy> 2021 </yy>
+        <inves> 370,000 </inves>
+        <profit> 77,700 </profit>
+        <net_amount> 447,700 </net_amount>
+        <growth_per> 21% </growth_per>
+    </detail>
+
+    <detail>
+        <yy> 2022 </yy>
+        <inves> 385,000 </inves>
+        <profit> 96,250 </profit>
+        <net_amount> 481,250 </net_amount>
+        <growth_per> 25% </growth_per>
+    </detail>
+
+    <detail>
+        <yy> 2023 </yy>
+        <inves> 450,000 </inves>
+        <profit> 171,000 </profit>
+        <net_amount> 621,000 </net_amount>
+        <growth_per> 38% </growth_per>
+    </detail>
+
+    <detail>
+        <yy> Current </yy>
+        <inves> 390,000 </inves>
+        <profit> 206,700 </profit>
+        <net_amount> 596,700 </net_amount>
+        <growth_per> ~53% </growth_per>
+    </detail>
+</buy-sell>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+
+<!DOCTYPE product [
+<!ELEMENT product (top)>
+<!ELEMENT top (id, name, detail, price, qty)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT detail (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT qty (#PCDATA)>
+]>
+
+<product>
+    <top>
+        <id> CK-C-001 </id>
+        <name> Hot Espresso </name>
+        <detail> 8 oz. </detail>
+        <price> 40 </price>
+        <qty> 200 </qty>
+    </top>
+
+    <top>
+        <id> CK-C-002 </id>
+        <name> Hot Americano </name>
+        <detail> 8 oz. </detail>
+        <price> 35 </price>
+        <qty> 200 </qty>
+    </top>
+
+    <top>
+        <id> CK-C-003 </id>
+        <name> Hot Cappuccino </name>
+        <detail> 8 oz. </detail>
+        <price> 40 </price>
+        <qty> 200 </qty>
+    </top>
+
+    <top>
+        <id> CK-C-004 </id>
+        <name> Hot Latte </name>
+        <detail> 8 oz. </detail>
+        <price> 40 </price>
+        <qty> 200 </qty>
+    </top>
+
+    <top>
+        <id> CK-C-005 </id>
+        <name> Hot Mocha </name>
+        <detail> 8 oz. </detail>
+        <price> 40 </price>
+        <qty> 200 </qty>
+    </top>
+</product>
